@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tatlılar</title>
+  <link rel="stylesheet" href="menuds.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><img src="photo_product/logo1" alt="logo"></div>
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav id="nav">
+    <a href="menuu.html">Ana Sayfa</a>
+    <a href="tatlilar.html">Tatlilar</a>
+    <a href="yemekler.html">Yemekler</a>
+    <a href="icecekler.html">İçecekler</a>
+  </nav>
+</header>
+
+<section id="tatlilar">
+  <h2 class="section-title">Tatlılar</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="photo_product/mezeler/acili.jpg" alt="Tatlı 1">
+      <div class="info">
+        <h3>Acili ezme</h3>
+        <p>Yoğun çikolata aromalı tatlı.</p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="photo_product/mezeler/barm" alt="Tatlı 2">
+      <div class="info">
+        <h3>Barbunya</h3>
+        <p>taze levrek balik</p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+     <div class="product-card">
+      <img src="photo_product/mezeler/hav" alt="Tatlı 2">
+      <div class="info">
+        <h3>Havuc Tarator</h3>
+        <p>Cupra taze balik</p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="photo_product/mezeler/sarna" alt="Tatlı 2">
+      <div class="info">
+        <h3>Yaprak Sarma</h3>
+        <p>Ev yapimi nefis mantileri.</p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+     <div class="product-card">
+      <img src="photo_product/yemekler/makarna.jpg" alt="Tatlı 2">
+      <div class="info">
+        <h3>Kremali Makarna</h3>
+        <p>Pente makarna ile nefis krema </p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+     <div class="product-card">
+      <img src="photo_product/yemekler/kofte" alt="Tatlı 2">
+      <div class="info">
+        <h3>Kofte</h3>
+        <p>Ev yapimi guzel kofteler</p>
+        <h4>500 ₺</h4>
+      </div>
+    </div>
+    <div class="product-card">
+        <img src="photo_product/yemekler/patates_lizartmasi.jpg" alt="Tatlı 1">
+        <div class="info">
+          <h3>Patates Kizartmasi</h3>
+          <p>Yoğun çikolata aromalı tatlı.</p>
+          <h4>500 ₺</h4>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="Menu_work/photo_product/burger2.jpg" alt="Tatlı 1">
+        <div class="info">
+          <h3>Çikolatalı Tatlı</h3>
+          <p>Yoğun çikolata aromalı tatlı.</p>
+          <h4>500 ₺</h4>
+        </div>
+      </div>  
+    <!-- Diğer tatlılar eklenebilir -->
+  </div>
+</section>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>
